@@ -1,0 +1,110 @@
+.yomogi-regular {
+    font-family: "Yomogi", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+html {
+    background: linear-gradient(to top, #fdfdfd, rgb(255, 239, 254));
+    min-height: 100vh;
+}
+
+body {
+    font-family: "Yomogi", sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.2em;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+span {
+    color: #e355bd;
+}
+
+a {
+    display: inline-block;
+    text-align: center;
+    font-size: 1.4em;
+    margin: 10px auto;
+    color: #3388cc;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #ff69b4;
+    text-decoration: underline;
+    transform: scale(1.05);
+}
+
+.main-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+form, .diary-entry, .calendar {
+    background: #fff6fe;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.05);
+}
+
+input {
+    background-color: #fdd5f9;
+    border: none;
+    border-radius: 20px;
+}
+
+textarea {
+    background-color: #fdd5f9;
+    border: none;
+    border-radius: 15px;
+    width: 80%;
+    max-width: 300px;
+}
+
+select {
+    background-color: #fdd5f9;
+}
+
+button {
+    margin-top: 20px;
+    padding: 8px 16px;
+    border: none;
+    background: #e154dc;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #981e92;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    text-align: center;
+    height: 60px;
+    font-size: 1.2em;
+}
+
+th {
+    background-color: #f0f0f0;
+}
+
+
